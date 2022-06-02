@@ -1,0 +1,38 @@
+let books = `[{
+      "id": "01",
+      "title": "The Latecomer",
+      "author": "Dimitry Verhlust ",
+      "read": "Read",
+      "picture": "pics/1.png"
+    }, {
+      "id": "02",
+      "title": "Woman of Light",
+      "author": "Teresa Pollard",
+      "read": "Unread",
+      "picture": "pics/2.png"
+    }, {
+      "id": "03",
+      "title": "Hurricane Girl",
+      "author": "Marcy Dermansky",
+      "read": "Read",
+      "picture": "pics/3.png"
+    }, {
+      "id": "04",
+      "title": "Thrust",
+      "author": "Lidia Yuknavitch",
+      "read": "Unread",
+      "picture": "pics/4.png"
+    }, {
+      "id": "05",
+      "title": "The Facemaker",
+      "author": "Lindsey Fitzharris",
+      "read": "Read",
+      "picture": "pics/5.png"
+    }, {
+      "id": "06",
+      "title": "How to Raise an Antiracist",
+      "author": "Ibram X. Kendi",
+      "read": "Unread",
+      "picture": "pics/6.png"
+    }]
+    `
