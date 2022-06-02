@@ -1,4 +1,12 @@
 
+// Ex 1
+// Create 3 different objects for 3 different themes:  car, animal and person. The end result should be 9 objects in total.  These objects should have some properties like name, brand, model, type, color, weight, age... of course inherent to its type because, for instance, an animal has no brand... 
+
+// Each object should have at least one method, that shows some properties about each theme. Feel free to expand on that.
+
+// The message from the methods must be printed on the browser too.
+
+
 let cars = [{
 
       "id": "01",
@@ -85,7 +93,7 @@ let cars = [{
       "telNumber": "067333333",
       "gender": "Female",
     }];
-    
+
     let tbodyCars = document.getElementById("tbodyCars");
     
     for (let i = 0 ; i < cars.length ; i++) {
@@ -129,5 +137,21 @@ let cars = [{
           <td>${persons[i].gender}</td>
         </tr>`
       };
+
+//       Ex 2
+// Based on the following two Objects definitions:
+
+// var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+// var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+// print the following message within the browser: My favorite sandwich is a Hamburger which has approximately 260 calories, along with it I enjoy eating Large French Fries which have about 570 calories.
     
+var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+var sandwich1 = document.getElementById("sandwich");
+
+let sandwiches2 = JSON.parse(sandwiches);
+let fries2 = JSON.parse(fries);
+
+  sandwich1.innerHTML = `My favorite sandwich is a ${sandwiches2.sandwich} which has approximately ${sandwiches2.calories} calories, along with it I enjoy eating ${fries2.fries_size} which have about ${fries2.calories} calories.`
+
 
